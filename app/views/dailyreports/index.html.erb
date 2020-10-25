@@ -7,6 +7,7 @@
     <tr>
       <th>Title</th>
       <th>Report</th>
+      <th>Name</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
       <tr>
         <td><%= dailyreport.title %></td>
         <td><%= dailyreport.report %></td>
+        <td><%= dailyreport.name %></td>
         <td><%= link_to 'Show', dailyreport %></td>
         <td><%= link_to 'Edit', edit_dailyreport_path(dailyreport) %></td>
         <td><%= link_to 'Destroy', dailyreport, method: :delete, data: { confirm: 'Are you sure?' } %></td>
