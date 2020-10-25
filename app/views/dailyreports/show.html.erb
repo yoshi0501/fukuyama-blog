@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @dailyreport.title %>
+</p>
+
+<p>
+  <strong>Report:</strong>
+  <%= @dailyreport.report %>
+</p>
+
+<%= link_to 'Edit', edit_dailyreport_path(@dailyreport) %> |
+<%= link_to 'Back', dailyreports_path %>
